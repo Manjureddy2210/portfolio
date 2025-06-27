@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    
+    <!--font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--header design -->
+    <header class="header">
+        <a href="#" class="logo"><span>M</span>anju.</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#Home" class='active'>Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home section design --->
+    <section class="home" id="Home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h3>Manjula Nancharla</h3>
+            <h3>And I'm a <span>frontend Developer</span></h3>
+            <p>My name is manjula i'm from mahabubnagar.I have completed graduation mvs degree art and science college with stream of BSC(mpcs)</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <a href="MANJULA RESUME1.pdf" class="btn">Dowload CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png">
+        </div>
+    </section>
+
+    <!-- About selection design --->
+    <section class="about" id="About">
+        <h2 class="heading"><span>About</span> Me</h2>
+        <div class="about-img">
+            <img src="images/image.png" alt=""/>
+        </div>
+        <div class="about-content">
+            <h3>Frontend Developer</h3>
+            <p>My name is manjula i'm from mahabubnagar.I have completed graduation mvs degree art and science college with stream of BSC(mpcs)</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+
+
+    <!-- Services section design --->
+    <section class="services" id="Services">
+        <h2 class="heading">My<span> Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-brands fa-html5"></i>
+               <h3>HTML5</h3>
+               <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web.
+                 It uses tags to define elements like headings, paragraphs, links, images, and more.</p>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-css3-alt"></i> 
+                <h3>CSS3</h3>
+                <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of HTML elements on a webpage.
+                     It apply styles like colors, fonts, spacing, positioning, making websites look attractive.</p>
+             </div>
+
+             <div class="services-box">
+                <i class="fa-brands fa-js"></i> 
+                <h3>JavaScript</h3>
+                <p>JavaScript (JS) is a programming language used to make web pages interactive and dynamic.
+                     It allows you to create features like clickable buttons, sliders, form validation, animations, and more. </p>
+             </div>
+
+             <div class="services-box">
+                <i class="fa-brands fa-python"></i> 
+                <h3>Python</h3>
+                <p>It is a high-level, general-purpose programming language known for its readability and versatility. It's
+                    widely used Web Development, AI, ML and Software Development.</p>
+             </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section design --->
+     <section class="portfolio" id="Portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/1.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/2.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/3.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact Section design --->
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section design --->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by @Manjula | All Rights Reserved.</p>
+        </div>
+        
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+        
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
